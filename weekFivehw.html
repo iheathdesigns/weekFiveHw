@@ -47,20 +47,22 @@
 
 
         <div class = "service">
-        <fieldset>
-            <legend>HOW WAS YOUR SERVICE?</legend>
-        
+            <fieldset>
+                <legend>HOW WAS YOUR SERVICE?</legend>
             
-            <input type="radio" id="excellent" name="service" value="1">
-            <label for="excellent">Excellent</label><br>
-        
-            <input type="radio" id="par" name="service" value = "1" >
-            <label for="par">Par</label><br>
-        
-            <input type="radio" id="poor" name="service" value ="1" >
-            <label for="poor">Poor</label><br>
+                
+                <input type="radio" id="excellent" name="service" value="excellent">
+                <label for="excellent">Excellent</label><br>
+            
+                <input type="radio" id="par" name="service" value="par" >
+                <label for="par">Par</label><br>
+            
+                <input type="radio" id="poor" name="service" value="poor" >
+                <label for="poor">Poor</label><br>
+            </fieldset>
+            <div class="rateUs"></div>
         </div>
-        </fieldset>
+        
 <br>
         <div class = "party">
             <fieldset>
@@ -82,7 +84,7 @@
         </div>
         <div class="submit">
     
-        <button id = "submit">Submit</button>
+        <button id="submit" onclick="submitForm()">Submit</button>
         </div>
 
 
